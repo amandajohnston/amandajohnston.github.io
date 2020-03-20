@@ -6,49 +6,90 @@
 }
 
 body {
-  background-color: #3208a3;
+
+}
+
+html {
+  background: url('https://i.imgur.com/qglHaaN.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
-  color: white;
-  font-family: 'Space Mono', monospace;
+  color: #FFF9DE;
+  font-family: 'Alegreya Sans SC', sans-serif;
   text-align: center;
-  background-color: #fff;
-  color: #3208a3;
   padding: 20px;
-  border: 6px #ff00ff dashed;
-}
+  font-size: 60px;
+  }
+
+h2 {
+  color: #FFF9DE;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: center;
+  padding: 20px;
+  }
+
+h3 {
+    color: #FFF9DE;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 20px;
+    font-size: 90px;
+    }
 
 p {
-  color: white;
+  color: #FFF9DE;
   font-family: 'Space Mono', monospace;
+  font-size: 100px;
+}
+
+aside{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a{
+  color: #FFF9DE;
+  text-decoration: none;
+  hover: #8B5959;
+  font-family: 'Dancing Script', cursive;
+  font-size:60px;
+}
+
+#imgsize {
+  height: 250px;
+  width: 30%;
+  float: left;
+  padding: 1.5%;
+  margin-bottom: 5%;
 }
 
  #click {
   font-weight: bold;
-  font-size: 2em;
   position: absolute;
   top:30vh;
   left: 15vw;
   cursor: pointer;
 }
 
+#description {
+ position: absolute;
+ top:10vh;
+ left: 39vw;
+ margin-top: 200px;
+
+}
+
 #paragraph {
-  color: yellow;
-  width: 30vw;
+  color: #FFF9DE;
+  font-size: 16px;
+  width: 50vw;
   position: absolute;
   top: 10vh;
   left: 40vw;
+  float: right;
+  margin-top: 300px;
 }
-
-#vidstill {
-  margin-top: 40px;
-  width: 60%;
- }
-
- #rain {
-   position: absolute;
-   top: 45vh;
-   left: 30vw;
-   visibility: hidden;
- }
