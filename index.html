@@ -1,101 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Net.Art Narrative</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900|Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+     data-auto-a11y="true"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  <script src="three.min.js"></script>
+  <script src="vanta.cells.min.js"></script>
+
+  <style>
+    #interactive {
+      width: 100vw;
+      height:100vh;
+      position: fixed;
+      z-index: -999;
+    }
+  </style>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
-
 <body>
-  <h3>Bad Girls are nothing new...</h3>
-  <h1>Can you guess their crime?<br> Click on the image to find out!</h1>
+  <div id="interactive"></div>
+
+  <div class="container">
+
+  <a href="index.html" class="effect"><h1>Amanda Johnston</h1></a>
+
+  <ul>
+    <a href="portfolio.html"class="effect"><li>Compositions</li></a>
+    <a href="AR-Video-PsJ5-NetArt.html"class="effect"><li>AR-Video_PsJ5-NetArt</li></a>
+    <a href="about.html" class="effect"><li>About</li></a>
+  </ul>
 
 
-<aside>
-  <div id=imgsize>
-    <a href="page2.html">
-    <img src="https://imgur.com/nC3Eale.jpg" alt="Edith Ashton">
-      </a>
-  </div>
-
-  <div id=imgsize>
-    <a href="page3.html">
-    <img src="https://imgur.com/aLQr5QS.jpg" alt="Annie Gunderson">
-      </a>
+  <center>
+    <div>
+      <img src="giphyhomepage.gif" height="500px" width"500px" class="borderbox">
     </div>
+  </center>
 
-  <div id=imgsize>
-    <a href="page4.html">
-    <img src="https://imgur.com/s3k0APU.jpg" alt="May Smith">
-      </a>
-      </div>
-</aside>
+  <script>
+  VANTA.CELLS({
+    el: "#interactive",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    color1: 0xe317c1,
+    color2: 0xc335f2,
+    size: 1.90,
+    speed: 1.20
+  })
+  </script>
 
-<aside>
-  <div id=imgsize>
-    <a href="page5.html">
-    <img src="https://imgur.com/Oucj8mC.jpg" alt="Doris Poole">
-      </a>
-  </div>
-
-  <div id=imgsize>
-    <a href="page6.html">
-    <img src="https://imgur.com/wtkXsMB.jpg" alt="Amy Lee">
-      </a>
-  </div>
-
-    <div id=imgsize>
-      <a href="page7.html">
-      <img src="https://imgur.com/kfd1Gup.jpg" alt="Dorothy Mort">
-        </a>
-    </div>
-</aside>
-
-<aside>
-  <div id=imgsize>
-    <a href="page8.html">
-    <img src="https://imgur.com/zDSpnVY.jpg" alt="Esther Eggers">
-      </a>
-  </div>
-
-  <div id=imgsize>
-    <a href="page9.html">
-    <img src="https://imgur.com/W1Edv8l.jpg" alt="Jessie Longford">
-      </a>
-  </div>
-
-    <div id=imgsize>
-      <a href="page10.html">
-      <img src="https://imgur.com/RsnKZdu.jpg" alt="Patsie Neill">
-        </a>
-    </div>
-</aside>
-
-<aside>
-  <div id=imgsize>
-    <a href="page11.html">
-    <img src="https://imgur.com/qZQDjuD.jpg" alt="Nellie Cameron">
-      </a>
-  </div>
-
-  <div id=imgsize>
-    <a href="page12.html">
-    <img src="https://imgur.com/CF4Mzv6.jpg" alt="Alice Clark">
-      </a>
-  </div>
-
-    <div id=imgsize>
-      <a href="page13.html">
-      <img src="https://imgur.com/kfV90I0.jpg" alt="Phyllis Carmier">
-        </a>
-    </div>
-</aside>
-
-<h1>Check out the video below for more info on American Women Criminals from the late 1850s</h1>
-
-<div id=centerthevideo>
-  <iframe width="701" height="526" src="https://www.youtube.com/embed/c8QjMySmCxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<footer>
+  <center>
+    <a href="mailto:inspirivityart@gmail.com?Subject=Hello%20again" target="_top" class="effect"><i class="icon fas fa-envelope-square"></i></a>
+    <a href="https://www.instagram.com/inspirivityart/" class="effect"><i class="icon fab fa-instagram"></i></a>
+    <a class="icon effect "href="https:/www.inspirivityart.com"> www.inspirivityart.com </a>
+    <a href="https://vimeo.com/user102167691" class="effect"><i class="icon fab fa-vimeo-v"></i></a>
+    <a href="https://inspirivity-amandajohnston.myportfolio.com/" class="effect"><i class="icon fab fa-behance"></i></a>
+  </center>
 </div>
 
-</body>
+</footer>
+
 </html>
