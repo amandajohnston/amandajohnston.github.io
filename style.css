@@ -121,7 +121,81 @@ footer{
    cursor: pointer;
  }
 
+ /* PORTFOLIO PAGE STYLES */
+
+ .imagegroup {
+   width:32%;
+   color: #fff;
+   display: inline-block;
+   padding-bottom: 30px;
+   text-align: center;
+   font-style: italic;
+   position: relative;
+ }
+
+ .imagegroup img {
+   display: block;
+   padding-bottom: 8px;
+ }
+
+ .selected {
+   font-weight: bold;
+   font-style: normal;
+ }
+
+ .overlay {
+   color: #fff;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: 0.5s ease;
+ }
+
+ .imagegroup:hover .overlay {
+   opacity: 100%;
+ }
+
+ .text {
+   color: white;
+   position: absolute;
+   background-color: #333;
+   padding:5px;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+
+ .container1 {
+   position: relative;
+   max-width: 50%; /* Maximum width */
+   margin: 0 auto; /* Center it */
+ }
+
+ .container1 .content {
+   position: absolute; /* Position the background text */
+   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+   background: rgb(0, 0, 0); /* Fallback color */
+   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+   color: #f1f1f1; /* Grey text */
+   width: 100%; /* Full width */
+   padding: 10px; /* Some padding */
+ }
+
 /* ARTWORK PAGE STYLES */
+
+h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
  h4 {
    text-align: left;
    color: #fff;
