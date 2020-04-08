@@ -40,7 +40,7 @@ position: fixed;
 
 footer{
   color: #fff;
-  width: 85%;
+  width: 80%;
   position: relative;
   bottom: 0;
   padding: 40px;
@@ -88,7 +88,7 @@ footer{
 
  /* ABOUT PAGE STYLES */
  .twocolumns {
-   width: 100%;
+   width: 80%;
  }
 
  #me {
@@ -100,6 +100,7 @@ footer{
    width: 48%;
    color: #fff;
    float: right;
+   font-size: 1.5em;
  }
 
  button {
@@ -189,6 +190,23 @@ footer{
    padding: 10px; /* Some padding */
  }
 
+ .container2 {
+   position: relative;
+   max-width: 29%; /* Maximum width */
+   margin: 0 auto; /* Center it */
+   float:left;
+ }
+
+ .container2 .content2 {
+   position: absolute; /* Position the background text */
+   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+   background: rgb(0, 0, 0); /* Fallback color */
+   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+   color: #f1f1f1; /* Grey text */
+   width: 100%; /* Full width */
+   padding: 10px; /* Some padding */
+ }
+
 /* ARTWORK PAGE STYLES */
 
 h2 {
@@ -208,4 +226,8 @@ h2 {
    color: #fff;
    padding:30px;
    text-align: left;
+ }
+
+ .arrow {
+   margin-bottom: 500px;
  }
